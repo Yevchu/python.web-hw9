@@ -9,3 +9,5 @@ class Tag(Document):
 
 class Quote(Document):
     quote = StringField()
+    author = ReferenceField(Author)
+    tags = ReferenceField(Tag)
