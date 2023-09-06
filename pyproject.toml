@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "scrapy-hw"
+version = "0.1.0"
+description = "scrapy homework"
+authors = ["Vitalyi <evciu97@gmail.com>"]
+readme = "README.md"
+packages = [{include = "scrapy_hw"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
